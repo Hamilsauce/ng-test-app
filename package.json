@@ -22,6 +22,7 @@
     "@ngrx/store": "^12.2.0",
     "@ngrx/store-devtools": "^12.2.0",
     "angular-material": "^1.2.3",
+    "highcharts": "^9.1.2",
     "highcharts-angular": "^2.10.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
