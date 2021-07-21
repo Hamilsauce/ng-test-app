@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppChildComponent } from './app-child/app-child.component';
+import { ObservableTestComponent } from './observable-test/observable-test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppChildComponent,
+    ObservableTestComponent
   ],
   imports: [
     BrowserModule,
