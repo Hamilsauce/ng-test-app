@@ -5,18 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppChildComponent } from './app-child/app-child.component';
 import { ObservableTestComponent } from './observable-test/observable-test.component';
+import { StoreModule } from '@ngrx/store';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    AppChildComponent,
-    ObservableTestComponent
-  ],
+  declarations: [AppComponent, AppChildComponent, ObservableTestComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    StoreModule.forRoot({}, {}),
+    HighchartsChartModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
